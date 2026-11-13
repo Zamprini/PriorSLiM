@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite PriorSLiM when using this software."
+type: software
+title: "PriorSLiM: traceable deep learning for SLiM prediction with biological priors and sparse pretrained features"
+authors:
+  - family-names: Xu
+    given-names: Zeyu
+  - family-names: Zhao
+    given-names: Shiqing
+  - family-names: Zhu
+    given-names: Yanhao
+  - family-names: Liu
+    given-names: Bin
+  - family-names: Liu
+    given-names: Juntao
+license: MIT

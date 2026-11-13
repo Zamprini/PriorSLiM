@@ -1,0 +1,171 @@
+{
+  "version": "2026-11-13",
+  "release": {
+    "doi": "10.5281/zenodo.24190614",
+    "url": "https://zenodo.org/records/24190614"
+  },
+  "assets": {
+    "model": {
+      "filename": "model.pt",
+      "source_asset": "fold_08_K619",
+      "sha256": "df8df1d39f6b0f2a7be2d91674d332af584fd88bb81690b0655a9c1972cdf98f",
+      "bytes": 393049,
+      "url": "https://zenodo.org/records/24190614/files/model.pt?download=1"
+    },
+    "models": {
+      "filename": "models.tar.gz",
+      "sha256": "8409273ef8a8cfbe08b59725e55a47c8402afec446d2a28b9d0462a578ac58ec",
+      "bytes": 219216588,
+      "url": "https://zenodo.org/records/24190614/files/models.tar.gz?download=1"
+    },
+    "feature_inputs": {
+      "sha256": "bb704308205b2c84626adfa2e9288025d0edc47ab65aec593e9bfa14c5688878",
+      "bytes": 614054667,
+      "filename": "feature_inputs.tar.gz",
+      "url": "https://zenodo.org/records/24190614/files/feature_inputs.tar.gz?download=1"
+    }
+  },
+  "external_resources": {
+    "motifae": {
+      "model_name": "MotifAE_k3_step_80000",
+      "version": "v2, 2026-06-04",
+      "source": "https://doi.org/10.5281/zenodo.20547228",
+      "license": "CC-BY-4.0",
+      "input_dim": 1280,
+      "latent_dim": 40960,
+      "files": [
+        {
+          "filename": "MotifAE_k3_step_80000.pt",
+          "url": "https://zenodo.org/records/20547228/files/MotifAE_k3_step_80000.pt?download=1",
+          "bytes": 419601512,
+          "sha256": "e322c859a593c6c3dba461a2fae6c648ccd064a46422221f05f25c6eac03f28d"
+        }
+      ]
+    },
+    "esm2": {
+      "model_name": "esm2_t33_650M_UR50D",
+      "representation_layer": 33,
+      "embedding_dim": 1280,
+      "source": "https://github.com/facebookresearch/esm",
+      "license": "MIT",
+      "files": [
+        {
+          "filename": "esm2_t33_650M_UR50D.pt",
+          "url": "https://dl.fbaipublicfiles.com/fair-esm/models/esm2_t33_650M_UR50D.pt",
+          "bytes": 2604537549,
+          "sha256": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c"
+        },
+        {
+          "filename": "esm2_t33_650M_UR50D-contact-regression.pt",
+          "url": "https://dl.fbaipublicfiles.com/fair-esm/regression/esm2_t33_650M_UR50D-contact-regression.pt",
+          "bytes": 3687,
+          "sha256": "8ffe6edbd4173dc8d45c2cd5cb27d43aad77ec26b4c768200c58ae1f96693575"
+        }
+      ]
+    }
+  },
+  "experiment_models": {
+    "fold_01_K929": {
+      "archive_asset": "models",
+      "member": "train/outputs_jwarm_cv10/seed42/fold_01/K929/jwarm_bundle.pt",
+      "sha256": "3797fba85f36af0225381195e8142c5d498ba517bbc048bba86f66ed9e3db2af",
+      "bytes": 432729
+    },
+    "fold_02_K501": {
+      "archive_asset": "models",
+      "member": "train/outputs_jwarm_cv10/seed42/fold_02/K501/jwarm_bundle.pt",
+      "sha256": "b69969b61faa2ad23cf63ec2e1af17ef3d23d0652412e1328f59fda8185bc2b5",
+      "bytes": 377945
+    },
+    "fold_02_K695": {
+      "archive_asset": "models",
+      "member": "train/outputs_jwarm_cv10/seed42/fold_02/K695/jwarm_bundle.pt",
+      "sha256": "7258e448dc4e7155412b0157d7a502f67f3bc1dfe5eda8a592526689284189c9",
+      "bytes": 402777
+    },
+    "fold_03_K490": {
+      "archive_asset": "models",
+      "member": "train/outputs_jwarm_cv10/seed42/fold_03/K490/jwarm_bundle.pt",
+      "sha256": "5619d3b7374f52337cc97b3b556ab7560da15c1b943b1c9da3be53f320017ae3",
+      "bytes": 376537
+    },
+    "fold_04_K610": {
+      "archive_asset": "models",
+      "member": "train/outputs_jwarm_cv10/seed42/fold_04/K610/jwarm_bundle.pt",
+      "sha256": "0dae845f1fabf121f329ec6ab724508a6c19b689c51ed354239f9fa14415ba6e",
+      "bytes": 391897
+    },
+    "fold_04_K902": {
+      "archive_asset": "models",
+      "member": "train/outputs_jwarm_cv10/seed42/fold_04/K902/jwarm_bundle.pt",
+      "sha256": "1cb5d06cdab885ee59e7a8d52cf0e5bc8e02865902ffbc891b37f155892fa8c0",
+      "bytes": 429273
+    },
+    "fold_05_K573": {
+      "archive_asset": "models",
+      "member": "train/outputs_jwarm_cv10/seed42/fold_05/K573/jwarm_bundle.pt",
+      "sha256": "372fa55b0dc533f549a20f6849188b207f8653cff4d78b2122f49957cca4be9f",
+      "bytes": 387097
+    },
+    "fold_05_K825": {
+      "archive_asset": "models",
+      "member": "train/outputs_jwarm_cv10/seed42/fold_05/K825/jwarm_bundle.pt",
+      "sha256": "15281c6048063b0973eab80c2a9985f5650b1384998b2338bac61f0a5f67c75d",
+      "bytes": 419417
+    },
+    "fold_06_K1109": {
+      "archive_asset": "models",
+      "member": "train/outputs_jwarm_cv10/seed42/fold_06/K1109/jwarm_bundle.pt",
+      "sha256": "6e19f062dd04be882765eaf452ce44d7a7d9b8cd41d5bf847f7ddfcb2674cb14",
+      "bytes": 455769
+    },
+    "fold_06_K781": {
+      "archive_asset": "models",
+      "member": "train/outputs_jwarm_cv10/seed42/fold_06/K781/jwarm_bundle.pt",
+      "sha256": "2937442612a8357c88512dd0251fcacf4f9ce47e12d416e0785523abb089f888",
+      "bytes": 413721
+    },
+    "fold_07_K1039": {
+      "archive_asset": "models",
+      "member": "train/outputs_jwarm_cv10/seed42/fold_07/K1039/jwarm_bundle.pt",
+      "sha256": "8df84bc0201201bebb152590b213314dcc43ee8bcdcccb4a2d22c541fee22905",
+      "bytes": 446873
+    },
+    "fold_07_K722": {
+      "archive_asset": "models",
+      "member": "train/outputs_jwarm_cv10/seed42/fold_07/K722/jwarm_bundle.pt",
+      "sha256": "c4350c6f96f09ad28df56591692c2dccf203156c59782f6502a3f1933346c93f",
+      "bytes": 406233
+    },
+    "fold_08_K619": {
+      "archive_asset": "models",
+      "member": "train/outputs_jwarm_cv10/seed42/fold_08/K619/jwarm_bundle.pt",
+      "sha256": "df8df1d39f6b0f2a7be2d91674d332af584fd88bb81690b0655a9c1972cdf98f",
+      "bytes": 393049
+    },
+    "fold_09_K265": {
+      "archive_asset": "models",
+      "member": "train/outputs_jwarm_cv10/seed42/fold_09/K265/jwarm_bundle.pt",
+      "sha256": "988833768add7b2442c1af968feee446d7859434ccd7c9b3133958732bcd8743",
+      "bytes": 347737
+    },
+    "fold_09_K500": {
+      "archive_asset": "models",
+      "member": "train/outputs_jwarm_cv10/seed42/fold_09/K500/jwarm_bundle.pt",
+      "sha256": "c3af34d3a975ade0862e368dcbda252812961264053c6d2f4b990df866e494eb",
+      "bytes": 377817
+    },
+    "fold_10_K1033": {
+      "archive_asset": "models",
+      "member": "train/outputs_jwarm_cv10/seed42/fold_10/K1033/jwarm_bundle.pt",
+      "sha256": "173d6ea2d76aa49d45466aad033d3cfc19f5ecea0ee1671b588ad3fd7aec4e36",
+      "bytes": 446041
+    },
+    "fold_10_K1393": {
+      "archive_asset": "models",
+      "member": "train/outputs_jwarm_cv10/seed42/fold_10/K1393/jwarm_bundle.pt",
+      "sha256": "73575978aeadd927de02ae5288aba6bdd05091ff2ddeb1eefcdc80cfd4febb42",
+      "bytes": 492121
+    }
+  }
+}

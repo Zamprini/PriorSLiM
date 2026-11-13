@@ -1,0 +1,10 @@
+{
+  "positive": "RK",
+  "negative": "DE",
+  "aromatic": "FYW",
+  "polar": "STNQCH",
+  "hydrophobic": "ILMV",
+  "proline": "P",
+  "glycine": "G",
+  "alanine": "A"
+}
