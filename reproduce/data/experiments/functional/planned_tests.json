@@ -1,0 +1,174 @@
+[
+  {
+    "subclass": "DNA_binding_other",
+    "evaluation_method": "region"
+  },
+  {
+    "subclass": "NES",
+    "evaluation_method": "region"
+  },
+  {
+    "subclass": "NLS",
+    "evaluation_method": "region"
+  },
+  {
+    "subclass": "PCNA_interaction_related",
+    "evaluation_method": "region"
+  },
+  {
+    "subclass": "PEST_region",
+    "evaluation_method": "region"
+  },
+  {
+    "subclass": "RNA_binding",
+    "evaluation_method": "region"
+  },
+  {
+    "subclass": "SUMO_interaction_related",
+    "evaluation_method": "region"
+  },
+  {
+    "subclass": "autoinhibition",
+    "evaluation_method": "region"
+  },
+  {
+    "subclass": "calmodulin_binding",
+    "evaluation_method": "region"
+  },
+  {
+    "subclass": "chloroplast_transit",
+    "evaluation_method": "region"
+  },
+  {
+    "subclass": "mature_peptide",
+    "evaluation_method": "region"
+  },
+  {
+    "subclass": "mitochondrial_transit",
+    "evaluation_method": "region"
+  },
+  {
+    "subclass": "nuclear_export_related",
+    "evaluation_method": "region"
+  },
+  {
+    "subclass": "nuclear_localization_related",
+    "evaluation_method": "region"
+  },
+  {
+    "subclass": "other_transit",
+    "evaluation_method": "region"
+  },
+  {
+    "subclass": "propeptide",
+    "evaluation_method": "region"
+  },
+  {
+    "subclass": "signal_peptide",
+    "evaluation_method": "region"
+  },
+  {
+    "subclass": "transcription_activation",
+    "evaluation_method": "region"
+  },
+  {
+    "subclass": "transcription_repression",
+    "evaluation_method": "region"
+  },
+  {
+    "subclass": "ubiquitin_binding",
+    "evaluation_method": "region"
+  },
+  {
+    "subclass": "AT_hook",
+    "evaluation_method": "site"
+  },
+  {
+    "subclass": "DNA_binding_other",
+    "evaluation_method": "site"
+  },
+  {
+    "subclass": "ER_retention_retrieval",
+    "evaluation_method": "site"
+  },
+  {
+    "subclass": "NES",
+    "evaluation_method": "site"
+  },
+  {
+    "subclass": "NLS",
+    "evaluation_method": "site"
+  },
+  {
+    "subclass": "PDZ_binding",
+    "evaluation_method": "site"
+  },
+  {
+    "subclass": "PEST_region",
+    "evaluation_method": "site"
+  },
+  {
+    "subclass": "RNA_binding",
+    "evaluation_method": "site"
+  },
+  {
+    "subclass": "SH3_binding",
+    "evaluation_method": "site"
+  },
+  {
+    "subclass": "acetylation_site",
+    "evaluation_method": "site"
+  },
+  {
+    "subclass": "autoinhibition",
+    "evaluation_method": "site"
+  },
+  {
+    "subclass": "calmodulin_binding",
+    "evaluation_method": "site"
+  },
+  {
+    "subclass": "chloroplast_transit",
+    "evaluation_method": "site"
+  },
+  {
+    "subclass": "mature_peptide",
+    "evaluation_method": "site"
+  },
+  {
+    "subclass": "methylation_site",
+    "evaluation_method": "site"
+  },
+  {
+    "subclass": "mitochondrial_transit",
+    "evaluation_method": "site"
+  },
+  {
+    "subclass": "nuclear_localization_related",
+    "evaluation_method": "site"
+  },
+  {
+    "subclass": "phosphorylation_site",
+    "evaluation_method": "site"
+  },
+  {
+    "subclass": "propeptide",
+    "evaluation_method": "site"
+  },
+  {
+    "subclass": "proteolytic_cleavage",
+    "evaluation_method": "site"
+  },
+  {
+    "subclass": "signal_peptide",
+    "evaluation_method": "site"
+  },
+  {
+    "subclass": "transcription_activation",
+    "evaluation_method": "site"
+  },
+  {
+    "subclass": "ubiquitin_binding",
+    "evaluation_method": "site"
+  }
+]

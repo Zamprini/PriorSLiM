@@ -1,0 +1,56 @@
+{"f": [
+    {
+      "kind": "FN_rescued",
+      "feature_id": 27995,
+      "stable_folds": 5,
+      "proteins": 72,
+      "mean_bce": 0.071350343298524,
+      "mean_probability_effect": 0.02712144944275207,
+      "eligible": true
+    },
+    {
+      "kind": "FN_rescued",
+      "feature_id": 10467,
+      "stable_folds": 4,
+      "proteins": 25,
+      "mean_bce": 0.0310227567110186,
+      "mean_probability_effect": 0.01301985299616272,
+      "eligible": true
+    },
+    {
+      "kind": "FN_rescued",
+      "feature_id": 36920,
+      "stable_folds": 4,
+      "proteins": 22,
+      "mean_bce": 0.027641678969807633,
+      "mean_probability_effect": 0.00976867181892394,
+      "eligible": true
+    },
+    {
+      "kind": "FP_corrected",
+      "feature_id": 5719,
+      "stable_folds": 5,
+      "proteins": 132,
+      "mean_bce": 0.015069084324422194,
+      "mean_probability_effect": 0.011918120832634943,
+      "eligible": true
+    },
+    {
+      "kind": "FP_corrected",
+      "feature_id": 35819,
+      "stable_folds": 5,
+      "proteins": 72,
+      "mean_bce": 0.009049791786951951,
+      "mean_probability_effect": 0.009851470878633835,
+      "eligible": true
+    },
+    {
+      "kind": "FP_corrected",
+      "feature_id": 27176,
+      "stable_folds": 4,
+      "proteins": 32,
+      "mean_bce": 0.00590970395895365,
+      "mean_probability_effect": 0.0056675855773889745,
+      "eligible": true
+    }
+  ]}
